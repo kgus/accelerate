@@ -20,18 +20,18 @@ get_header(); ?>
 
 				<article class="post-entry individual-post">
 					<div class="entry-wrap">
-						
+
 						<header class="entry-header">
 							<div class="entry-meta">
 								<time class="entry-time"><?php the_date();?></time>
 							</div>
 							<h2 class="entry-title"><?php the_title(); ?></h2>
 						</header>
-						
+
 						<div class="entry-summary">
 							<?php the_content(); ?>
 						</div>
-						
+
 						<footer class="entry-footer">
 							<div class="entry-meta">
 								<span class="entry-terms author">Written by <?php the_author_posts_link(); ?></span>
@@ -39,11 +39,11 @@ get_header(); ?>
 								<span class="entry-terms comments"><?php comments_number( 'No comments yet!', '1 comment', '% comments' ); ?></span>
 							</div>
 						</footer>
-						
+
 					</div>
 				</article>
 
-					<?php 
+					<?php
 						if ( comments_open() || get_comments_number() ) :
 							comments_template();
 						endif; ?>
@@ -54,10 +54,10 @@ get_header(); ?>
 			<footer class="navigation container">
 				<div class="left">&larr;<a href="<?php echo home_url(); ?>/blog">back to posts</a></div>
 			</footer>
-	 
+
 				<?php endwhile; ?>
 			</div>
-		</section>	
-		
+		</section>
+
 <?php
 get_footer();
