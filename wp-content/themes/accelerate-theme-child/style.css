@@ -27,7 +27,7 @@
 
 #masthead nav ul li {
     float: left;
-    margin:0 10px;
+    margin: -24px;
     display: inline;
 }
 
@@ -58,7 +58,6 @@
 }
 
 /* Case Studies */
-
 article.case-study {
   margin:40px 0 0;
 }
@@ -94,7 +93,7 @@ ul.homepage-featured-work {
 .individual-featured-work {
     display: inline;
     float: left;
-    padding: 8px;
+    padding: 3px;
 }
 
 .homepage-featured-work h4 {
@@ -117,7 +116,6 @@ ul.homepage-featured-work {
 }
 
 /* Archive Case Studies */
-
 .case-study {
     display: inline;
     padding: 20px;
@@ -129,4 +127,41 @@ ul.homepage-featured-work {
 
 .case-study h6 {
     color: #909090;
+}
+
+
+
+/* Contact Us Form Page */
+#content.contact-us {
+    margin: 0 380px;
+    padding-bottom: 200px;
+    width: 600px;
+    font-weight: normal;;
+    font-size: 14px;
+}
+
+.nf-field-element {
+    width: 280px;
+}
+
+.nf-form-content {
+    display: inline;
+}
+
+#nf-field-5.ninja-forms-field.nf-element {
+    width: 280px;
+    margin-right: 280px;
+}
+
+#nf-field-6.ninja-forms-field.nf-element {
+    width: 280px;
+    margin-right: 280px;
+}
+
+#nf-field-8.ninja-forms-field.nf-element {
+    float: right;
+}
+
+.contact-us.one-half {
+    display: inline-block;
 }
