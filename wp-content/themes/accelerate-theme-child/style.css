@@ -165,3 +165,67 @@ ul.homepage-featured-work {
 .contact-us.one-half {
     display: inline-block;
 }
+
+/*About Page Styles*/
+.about-content {
+    width: 800px;
+    padding-left: 300px;
+}
+
+.service-image-1 {
+    float: left;
+}
+
+/*
+<article class="service-1">
+	<aside class="service-sidebar-1">
+			<h2><?php echo $service_1; ?></h2>
+			<h6><?php echo $summary_1; ?></h6>
+	</aside>
+
+	<div class="service-image-1">
+			<?php if($image_1) {
+				echo wp_get_attachment_image( $image_1, $size );
+			} ?>
+	</div>
+</article>
+
+<article class="service-2">
+	<aside class="service-sidebar-2">
+			<h2><?php echo $service_2; ?></h2>
+			<h6><?php echo $summary_2; ?></h6>
+	</aside>
+
+	<div class="service-image-2">
+			<?php if($image_2) {
+				echo wp_get_attachment_image( $image_2, $size );
+			} ?>
+	</div>
+</article>
+
+<article class="service-3">
+	<aside class="service-sidebar-3">
+			<h2><?php echo $service_3; ?></h2>
+			<h6><?php echo $summary_3; ?></h6>
+	</aside>
+
+	<div class="service-image-3">
+			<?php if($image_3) {
+				echo wp_get_attachment_image( $image_3, $size );
+			} ?>
+	</div>
+</article>
+
+<article class="service-4">
+	<aside class="service-sidebar-4">
+			<h2><?php echo $service_4; ?></h2>
+			<h6><?php echo $summary_4; ?></h6>
+	</aside>
+
+	<div class="service-image-4">
+			<?php if($image_4) {
+				echo wp_get_attachment_image( $image_4, $size );
+			} ?>
+	</div>
+</article>
+*/
