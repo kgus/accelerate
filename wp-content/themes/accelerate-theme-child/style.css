@@ -1,0 +1,231 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Katie Gustafson
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+/* Homepage Styles */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead nav ul li {
+    float: left;
+    margin: -24px;
+    display: inline;
+}
+
+/* blog post on homepage */
+.blog-post {
+  width: 50%;
+}
+
+.blog-post h4 {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: #a6a6a6;
+  text-transform: uppercase;
+}
+
+.blog-post h2 {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.blog-post .read-more-link {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+
+/* Case Studies */
+article.case-study {
+  margin:40px 0 0;
+}
+
+aside.case-study-sidebar {
+  float:left;
+  width:314px;
+  margin:0 40px 0 0;
+  clear:both;
+}
+
+div.case-study-images {
+  float:left;
+  width:606px;
+}
+
+div.case-study-images img {
+  display:block;
+  margin-bottom:50px;
+  border:1px solid #dddddd;
+}
+
+.case-study-article {
+    overflow: auto;
+    margin: 10px;
+}
+
+/* Front Page Featured Work */
+ul.homepage-featured-work {
+    padding-bottom: 360px;
+}
+
+.individual-featured-work {
+    display: inline;
+    float: left;
+    padding: 3px;
+}
+
+.homepage-featured-work h4 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+li.individual-featured-work {
+    display: inline;
+    padding-right: 10px;
+}
+
+li.individual-featured-work h3 {
+    text-align: center;
+}
+
+ul.homepage-featured-work {
+    list-style-type: none;
+}
+
+/* Archive Case Studies */
+.case-study {
+    display: inline;
+    padding: 20px;
+}
+
+.case-study h5, h6 {
+    font-weight: lighter
+}
+
+.case-study h6 {
+    color: #909090;
+}
+
+
+
+/* Contact Us Form Page */
+#content.contact-us {
+    margin: 0 380px;
+    padding-bottom: 200px;
+    width: 600px;
+    font-weight: normal;;
+    font-size: 14px;
+}
+
+.nf-field-element {
+    width: 280px;
+}
+
+.nf-form-content {
+    display: inline;
+}
+
+#nf-field-5.ninja-forms-field.nf-element {
+    width: 280px;
+    margin-right: 280px;
+}
+
+#nf-field-6.ninja-forms-field.nf-element {
+    width: 280px;
+    margin-right: 280px;
+}
+
+#nf-field-8.ninja-forms-field.nf-element {
+    float: right;
+}
+
+.contact-us.one-half {
+    display: inline-block;
+}
+
+/*About Page Styles*/
+.about-content {
+    width: 800px;
+    padding-left: 300px;
+}
+
+.service-image-1 {
+    float: left;
+}
+
+/*
+<article class="service-1">
+	<aside class="service-sidebar-1">
+			<h2><?php echo $service_1; ?></h2>
+			<h6><?php echo $summary_1; ?></h6>
+	</aside>
+
+	<div class="service-image-1">
+			<?php if($image_1) {
+				echo wp_get_attachment_image( $image_1, $size );
+			} ?>
+	</div>
+</article>
+
+<article class="service-2">
+	<aside class="service-sidebar-2">
+			<h2><?php echo $service_2; ?></h2>
+			<h6><?php echo $summary_2; ?></h6>
+	</aside>
+
+	<div class="service-image-2">
+			<?php if($image_2) {
+				echo wp_get_attachment_image( $image_2, $size );
+			} ?>
+	</div>
+</article>
+
+<article class="service-3">
+	<aside class="service-sidebar-3">
+			<h2><?php echo $service_3; ?></h2>
+			<h6><?php echo $summary_3; ?></h6>
+	</aside>
+
+	<div class="service-image-3">
+			<?php if($image_3) {
+				echo wp_get_attachment_image( $image_3, $size );
+			} ?>
+	</div>
+</article>
+
+<article class="service-4">
+	<aside class="service-sidebar-4">
+			<h2><?php echo $service_4; ?></h2>
+			<h6><?php echo $summary_4; ?></h6>
+	</aside>
+
+	<div class="service-image-4">
+			<?php if($image_4) {
+				echo wp_get_attachment_image( $image_4, $size );
+			} ?>
+	</div>
+</article>
+*/
